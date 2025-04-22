@@ -2,7 +2,7 @@
 export const API_URL =
   import.meta.env.MODE === "development"
     ? "http://localhost:8080"
-    : "https://your-production-url.com";
+    : "https://server-ancient-voice-8322.fly.dev";
 
 export const API_KEY = import.meta.env.VITE_SUPER_SECRET_KEY;
 
